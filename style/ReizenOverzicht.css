@@ -1,0 +1,260 @@
+.ROzwaaneboothart{
+    margin-top: 7%;
+}
+.ROzwaaneboottext{
+    padding-left: 50px;
+}
+.ROparachutehart {
+    margin-top: 7%;
+}
+.ROparachutetext{
+    padding-left: 50px;
+}
+.ROcircushart{
+    margin-top: 7%;
+}
+.ROcircustext{
+    padding-left: 50px;
+}
+.ROhotelhart{
+    margin-top: 7%;
+}
+.ROhoteltext{
+    padding-left: 50px;
+}
+.ROspahart{
+    margin-top: 7%;
+}
+.ROspatext{
+    padding-left: 50px;
+}
+.ROonderzeeertext{
+    padding-left: 50px;
+}
+.h1{
+    font-size: 65px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .ROonderzeeer{
+        margin-top: 10%;
+        width: 100%;
+        height: auto;
+    }
+    .ROonderzeeerhart{
+        width: 40%;
+        height: 40%;
+        position: relative;
+    }
+    .ROonderzeeertext {
+        width: 55%;
+        height: auto;
+        float: right;
+        left: 0;
+        margin-top: -30%;
+        padding-left: 0;
+        padding-right: 5px;
+    }
+    .ROzwaaneboot{
+        margin-top: 10%;
+        width: 100%;
+        height: auto;
+    }
+    .ROzwaaneboothart{
+        width: 40%;
+        height: 40%;
+        float: right;
+        left: 0;
+        margin-top: -10%;
+    }
+    .ROzwaaneboottext {
+        width: 53%;
+        height: auto;
+        margin-left: 2%;
+    }
+
+
+    .ROparachute{
+        margin-top: 10%;
+        width: 100%;
+        height: auto;
+    }
+    .ROparachutehart{
+        width: 40%;
+        height: 40%;
+        position: relative;
+    }
+    .ROparachutetext{
+        width: 55%;
+        height: auto;
+        float: right;
+        left: 0;
+        margin-top: -25%;
+        padding-left: 0;
+    }
+    .ROcircus{
+        margin-top: 10%;
+        width: 100%;
+        height: auto;
+    }
+    .ROcircushart{
+        width: 40%;
+        height: 40%;
+        float: right;
+        left: 0;
+        margin-top: 0%;
+    }
+    .ROcircustext {
+        width: 55%;
+        height: auto;
+    }
+
+
+    .ROhotel{
+        margin-top: 10%;
+        width: 100%;
+        height: auto;
+    }
+    .ROhotelhart{
+        width: 40%;
+        height: 40%;
+        position: relative;
+    }
+    .ROhoteltext{
+        width: 55%;
+        height: auto;
+        float: right;
+        left: 0;
+        margin-top: -30%;
+        padding-left: 0;
+    }
+    .ROspa{
+        margin-top: 10%;
+        width: 100%;
+        height: auto;
+    }
+    .ROspahart{
+        width: 40%;
+        height: 40%;
+        float: right;
+        left: 0;
+        margin-top: 0%;
+    }
+    .ROspatext {
+        width: 55%;
+        height: auto;
+    }
+}
+@media only screen and (min-width: 1550px) {
+    .ROonderzeeer{
+        margin-top: 10%;
+        width: 100%;
+        height: auto;
+    }
+    .ROonderzeeerhart{
+        width: 40%;
+        height: 40%;
+        position: relative;
+    }
+    .ROonderzeeertext {
+        width: 55%;
+        height: auto;
+        float: right;
+        left: 0;
+        margin-top: -30%;
+        padding-left: 0;
+        padding-right: 5px;
+    }
+    .ROzwaaneboot{
+        margin-top: 10%;
+        width: 100%;
+        height: auto;
+    }
+    .ROzwaaneboothart{
+        width: 40%;
+        height: 40%;
+        float: right;
+        left: 0;
+        margin-top: -10%;
+    }
+    .ROzwaaneboottext {
+        width: 53%;
+        height: auto;
+        margin-left: 2%;
+    }
+
+
+    .ROparachute{
+        margin-top: 10%;
+        width: 100%;
+        height: auto;
+    }
+    .ROparachutehart{
+        width: 40%;
+        height: 40%;
+        position: relative;
+    }
+    .ROparachutetext{
+        width: 55%;
+        height: auto;
+        float: right;
+        left: 0;
+        margin-top: -25%;
+        padding-left: 0;
+    }
+    .ROcircus{
+        margin-top: 10%;
+        width: 100%;
+        height: auto;
+    }
+    .ROcircushart{
+        width: 40%;
+        height: 40%;
+        float: right;
+        left: 0;
+        margin-top: -20%;
+    }
+    .ROcircustext {
+        width: 55%;
+        height: auto;
+    }
+
+
+    .ROhotel{
+        margin-top: 10%;
+        width: 100%;
+        height: auto;
+    }
+    .ROhotelhart{
+        width: 40%;
+        height: 40%;
+        position: relative;
+    }
+    .ROhoteltext{
+        width: 55%;
+        height: auto;
+        float: right;
+        left: 0;
+        margin-top: -30%;
+        padding-left: 0;
+    }
+    .ROspa{
+        margin-top: 10%;
+        width: 100%;
+        height: auto;
+    }
+    .ROspahart{
+        width: 40%;
+        height: 40%;
+        float: right;
+        left: 0;
+        margin-top: -20%;
+    }
+    .ROspatext {
+        width: 55%;
+        height: auto;
+    }
+}
+.ROonderzeeertext {
+    margin-bottom: 3%
+}

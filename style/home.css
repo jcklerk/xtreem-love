@@ -1,0 +1,292 @@
+body{
+  z-index: 1;
+}
+/* Nav bar css */
+nav{
+  position: fixed;
+  z-index:2;
+}
+/* slogen en video */
+.front-page-video{
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: inline-block;
+}
+.background-video {
+  position: inherit;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.slogan{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate( -50%, -50% );
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+}
+/* quotes */
+.quotes{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  justify-content: space-around;
+  align-content: center;
+  color: black;
+  position: relative;
+  display:  flex;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+h1.quotes{
+  font-size: 80px;
+  width: 5%
+}
+h2.quotes{
+  font-size: 60px;
+  width: 80%
+}
+/* Speciale-reizen */
+.Speciale-reizen{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  justify-content: space-around;
+  align-content: center;
+  color: black;
+  position: relative;
+  display:  flex;
+  margin-bottom: 5%;
+}
+h1.Speciale-reizen{
+  font-size: 80px;
+  width: 15%
+}
+img.Speciale-reizen{
+  width: 100%;
+  height: 100%;
+  width: 5%;
+}
+h2.Speciale-reizen{
+  font-size: 60px;
+  width: 60%;
+}
+/* slogan, quotes, Speciale-reizen responsive */
+@media screen and (max-width: 1150px) {
+  .slogan{
+    font-size: 20px;
+  }
+  h1.quotes{
+    font-size: 60px;
+    width: 5%
+  }
+  h2.quotes{
+    font-size: 40px;
+    width: 80%
+  }
+  .Speciale-reizen{
+    font-size: 20px;
+  }
+  h1.Speciale-reizen{
+    width: 5%
+  }
+  img.Speciale-reizen{
+    width: 10%;
+  }
+  h2.Speciale-reizen{
+    font-size: 40px;
+    width: 70%
+  }
+}
+@media screen and (max-width: 800px) {
+  .slogan{
+    font-size: 10px;
+  }
+  h1.Speciale-reizen{
+    font-size: 40px;
+    width: 5%
+  }
+  h2.quotes{
+    font-size: 20px;
+    width: 80%
+  }
+  .Speciale-reizen{
+    font-size: 20px;
+  }
+  h2.Speciale-reizen{
+    font-size: 20px;
+    width: 70%
+  }
+}
+@media screen and (max-width: 375px) {
+  .slogan{
+    font-size: 7px;
+  }
+}
+/* riezen vakjes */
+.riezen{
+  width: 100%;
+  height: 405px;
+  left: 0;
+  right: 0;
+}
+div.reizen{
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
+.riezen-spacer{
+  width: 1%;
+  height: 50px;
+  float: left;
+    margin-bottom: 100px;
+}
+.riezen-spa{
+  width: 38%;
+  height: 100%;
+  background: #FDDAE9;
+  float: left;
+  border-radius: 10px;
+  margin-bottom: 100px;
+  padding: 8px;
+}
+.reizen-circus{
+  width: 38%;
+  height: 100%;
+  background: #FDDAE9;
+  float: left;
+  border-radius: 10px;
+  margin-bottom: 100px;
+  padding: 8px;
+}
+.reizen-andere-reizen{
+  width: 20%;
+  height: 100%;
+  background: #FDDAE9;
+  float: left;
+  border-radius: 10px;
+  margin-bottom: 100px;
+  padding: 8px;
+  font-size: 200%;
+  text-align: center;
+}
+/* reizen images, text */
+img.reizen-fotos{
+  margin-top: 2%;
+  margin-bottom: 3%;
+  width: 100%;
+  left: 50%;
+  right: 50%;
+  height: auto;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  border-radius: 20px;
+}
+#reizen-andere-reizen-vertical-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+#knopje{
+  height: 45px;
+  justify-content: space-between;
+}
+  .riezen-spa h2{
+  justify-content: space-between;
+  }
+  .reizen-circus h2{
+  justify-content: space-between;
+  }
+
+@media screen and (max-width: 1223px) {
+  .reizen-andere-reizen{
+    font-size: 150%;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1110px) {
+    .reizen-andere-reizen img{
+      width: 206px;
+    }
+}
+@media screen and (max-width: 972px) {
+  .reizen-andere-reizen{
+    font-size: 100%;
+    text-align: center;
+  }
+  .riezen-spa h2{
+    font-size: 20px;
+  }
+  .reizen-circus h2{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 625px) {
+  #knopje{
+    height: 35px;
+  }
+}
+@media screen and (max-width: 572px) {
+  .reizen-andere-reizen{
+    font-size: 50%;
+    text-align: center;
+  }
+  .riezen-spa h2{
+    font-size: 14px;
+  }
+  .reizen-circus h2{
+    font-size: 14px;
+  }
+  .riezen{
+    height: 305px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .riezen-spacer{
+    width: 0%;
+    height: 0px;
+  }
+  .riezen-spa{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+  .reizen-circus{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+  .reizen-andere-reizen{
+    width: 100%;
+    font-size: 120%;
+    margin-bottom: 50px;
+    border-radius: 20px;
+  }
+  #reizen-andere-reizen-vertical-center img{
+    width: 50%;
+  }
+  .riezen-spa h2{
+    font-size: 20px;
+  }
+  .reizen-circus h2{
+    font-size: 20px;
+  }
+  .riezen{
+    height: 330px;
+  }
+}
+
+
+@media screen and (max-width: 380px) {
+  .riezen{
+    height: 360px;
+  }
+}

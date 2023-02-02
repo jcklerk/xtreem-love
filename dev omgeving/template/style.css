@@ -1,0 +1,118 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Pacifico;
+  font-style: normal;
+  font-weight: normal;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #FDDAE9;
+  width: 100%;
+}
+.logo{
+  font-family: none;
+  font-style: none;
+  font-weight: none;
+  width: auto;
+  height: auto;
+  font-size: 0px;
+}
+.logo img{
+  width: 80%;
+  height: 80%;
+
+}
+.nav-links{
+  margin: 0 auto;
+  width: 35%;
+}
+.nav-links li{
+  list-style: none;
+}
+.nav-links a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 3px;
+  font-size: 19px;
+  margin-left: auto;
+  position: absolute;
+  text-align: center;
+}
+.nav-links svg{
+  height: 70px;
+  width: 70px;
+  display: flex;
+  fill: rgba(0, 0, 0, 0);
+}
+.home:hover svg{
+  fill: red;
+}
+.reizen:hover svg{
+  fill: red;
+}
+.contact:hover svg{
+  fill: red;
+}
+@media only screen and (min-device-width: 900px) {
+  .nav-links a{
+    font-size: 30px;
+    z-index: 0;
+  }
+  .nav-links svg{
+    height: 110px;
+    width: 110px;
+  }
+}
+@media only screen and (max-device-width: 500px) {
+  .logo img{
+    width: 50%;
+    height: 50%;
+    float: left;
+  }
+  .logo{
+    width: 20%;
+  }
+}
+@media only screen and (max-device-width: 400px) {
+  .logo{
+    display: none
+  }
+}
+body{
+  background: rgba(253, 218, 233, 0.35);
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #FDDAE9;
+  color: white;
+  text-align: center;
+  font-size: 21px
+}
+.cppyricht{
+  width: 49%;
+  text-align: center;
+  float: left;
+}
+.footer-nav{
+  width: 49%;
+  align-content: center;
+  float: right;
+  right: 0;
+}
+.footer-nav svg{
+  width: 21px;
+}
+.footer-nav a{
+  text-decoration-style: none;
+  text-emphasis-style: none;
+  color: transparent;
+}

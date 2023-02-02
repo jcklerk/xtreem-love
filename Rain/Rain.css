@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.preload{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+}
+.heart1,.heart10,.heart20,.heart11,.heart21,.heart2,.heart12,.heart22,.heart3,.heart13,.heart23,.heart4,.heart14,.heart24,.heart5,.heart15,.heart6,.heart16,.heart7,.heart17,.heart8,.heart18,.heart9,.heart19{
+    width: 12%;
+    position: absolute;
+    top: 0;
+}
+.heart1{
+    right: 0;
+    transform: translate(0,-100%);
+    animation: heart1 1.5s ease;
+    animation-iteration-count: 3vvv;
+    animation-delay: 0.5s;
+
+}
+.heart2{
+    right: 4%;
+    transform: translate(0,-100%);
+    animation: heart1 1s ease;
+    animation-iteration-count: 3;
+    animation-delay: 1s;
+}
+.heart3{
+    right: 8%;
+    transform: translate(0,-100%);
+    animation: heart1 1.8s ease-in;
+    animation-iteration-count: 3;
+    animation-delay: 0s;
+}
+.heart4{
+    right: 12%;
+    transform: translate(0,-100%);
+    animation: heart1 0.5s ease;
+    animation-iteration-count: 3;
+    animation-delay: 1.5s;
+}
+.heart5{
+    right: 16%;
+    transform: translate(0,-100%);
+    animation: heart1 1s ease-in-out;
+    animation-iteration-count: 3;
+    animation-delay: 1s;
+}
+.heart6{
+    right: 20%;
+    transform: translate(0,-100%);
+    animation: heart1 1s ease;
+    animation-iteration-count: 3;
+    animation-delay: 0s;
+}
+.heart7{
+    right: 24%;
+    transform: translate(0,-100%);
+    animation: heart1 1s linear;
+    animation-iteration-count: 3;
+    animation-delay: 1s;
+}
+.heart8{
+    right: 28%;
+    transform: translate(0,-100%);
+    animation: heart1 1s ease-in;
+    animation-iteration-count: 3;
+    animation-delay:1s;
+}
+.heart9{
+    right: 32%;
+    transform: translate(0,-100%);
+    animation: heart1 2s ease;
+    animation-iteration-count: 3;
+    animation-delay: 0s;
+}
+.heart10{
+    right: 36%;
+    transform: translate(0,-100%);
+    animation: heart1 1s ease-out;
+    animation-iteration-count: 3;
+    animation-delay: 1s;
+}
+.heart11{
+    right: 40%;
+    transform: translate(0,-100%);
+    animation: heart1 1.5s ease;
+    animation-iteration-count: 3;
+    animation-delay: 0.5s;
+}
+.heart12{
+    right: 44%;
+    transform: translate(0,-100%);
+    animation: heart1 1.2s ease;
+    animation-iteration-count: 3;
+    animation-delay: 0.8s;
+}
+.heart13{
+    right: 48%;
+    transform: translate(0,-100%);
+    animation: heart1 1s ease;
+    animation-iteration-count: 3;
+    animation-delay: 0s;
+}
+.heart14{
+    right: 52%;
+    transform: translate(0,-100%);
+    animation: heart1 0.5s ease;
+    animation-iteration-count: 3;
+    animation-delay: 1.5s;
+}
+.heart15{
+    right: 56%;
+    transform: translate(0,-100%);
+    animation: heart1 1s ease-in;
+    animation-iteration-count: 3;
+    animation-delay: 0s;
+}
+.heart16{
+    right: 60%;
+    transform: translate(0,-100%);
+    animation: heart1 1s ease;
+    animation-iteration-count: 3;
+    animation-delay: 1s;
+}
+.heart17{
+    right: 64%;
+    transform: translate(0,-100%);
+    animation: heart1 2s linear;
+    animation-iteration-count: 3;
+    animation-delay: 0s;
+}
+.heart18{
+    right: 68%;
+    transform: translate(0,-100%);
+    animation: heart1 1s ease-in;
+    animation-iteration-count: 3;
+    animation-delay: 1s;
+}
+.heart19{
+    right: 72%;
+    transform: translate(0,-100%);
+    animation: heart1 1.6s ease-in-out;
+    animation-iteration-count: 3;
+    animation-delay: 0.4s;
+}
+.heart20{
+    right: 76%;
+    transform: translate(0,-100%);
+    animation: heart1 1s linear;
+    animation-iteration-count: 3;
+    animation-delay: 1s;
+}
+.heart21{
+    right: 80%;
+    transform: translate(0,-100%);
+    animation: heart1 1.7s ease;
+    animation-iteration-count: 3;
+    animation-delay: 0.3s;
+}
+.heart22{
+    right: 84%;
+    transform: translate(0,-100%);
+    animation: heart1 1s ease-out;
+    animation-iteration-count: 3;
+    animation-delay: 0.8s;
+}
+.heart23{
+    right: 88%;
+    transform: translate(0,-100%);
+    animation: heart1 1s ease-in-out;
+    animation-iteration-count: 3;
+    animation-delay: 1s;
+}
+.heart24{
+    right: 92%;
+    transform: translate(0,-100%);
+    animation: heart1 1s ease;
+    animation-iteration-count: 3;
+    animation-delay: 0s;
+}
+@keyframes heart1 {
+    from{
+        transform: translateY(-300px);
+    }
+    to{
+        transform: translateY(100vh);
+    }
+}
